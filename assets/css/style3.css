@@ -15,7 +15,14 @@
   }
   
   .image-container {
-    background-image: url("/assets/img/netflix-bg.jpg");
+
+    display: flex;
+    height: 1100px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+  .fit{
     background-size: cover;
     display: flex;
     height: 1100px;
