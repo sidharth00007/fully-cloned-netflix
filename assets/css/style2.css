@@ -227,78 +227,44 @@ select {
 }
 @media screen and (max-width: 787px){
   .login-container {
-    width: 71%;
+    width: 66%;
     height: 46vh;
-    background-color: rgba(0, 0, 0, 0.7);
-  
-    position: absolute;
-    z-index: 4;
-    align-self: center;
-    justify-content: center;
-    padding: 21px 43px 54px 11px;
-    margin-top: -250px;
-  
-    border-radius: 10px;
-  
-    color: #fff;
+    padding: 20px 36px 53px 35px;
   }
-  .opacity-container {
-    background-color: black;
-    opacity: 60%;
-    height: 141%;
-    width: 152%;
+  .grey-link {
+    min-width: 127px;
+  }
+  .opacity-footer {
+    width: 97.5vw;
+    padding: 0px 200px;
   }
 }
 @media screen and (max-width: 496px){
-  /* .login-container {
-    width: 71%;
-    height: 46vh;
-    padding: 22px 78px 50px 43px;
-    margin-top: -275px;
-  } */
   .login-container {
     width: 71%;
-    height: 46vh;
-    background-color: rgba(0, 0, 0, 0.7);
-  
-    position: absolute;
-    z-index: 4;
-    align-self: center;
-    justify-content: center;
     padding: 21px 43px 54px 11px;
-    margin-top: -250px;
-  
-    border-radius: 10px;
-  
-    color: #fff;
   }
   .opacity-container {
-    background-color: black;
     opacity: 100%;
-    height: 100%;
-    width: 100%;
   }
   .logo-image {
-    max-width: 131px;
+    max-width: 160px;
     margin-left: 14px;
   }
   .opacity-footer {
     width: 95vw;
-    position: absolute;
-    z-index: 4;
-    background-color: black;
-    opacity: 70%;
-    align-self: flex-end;
-    margin-top: 76px;
     padding: 0px 4px;
-    color: #fff;
-    box-sizing: border-box;
   }
   .grey-link {
     min-width: 95px;
   }
   .fit{
     display: none;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
 }

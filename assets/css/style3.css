@@ -226,3 +226,47 @@
     display: none;
     overflow: hidden;
   }
+  
+  @media screen and (max-width: 787px){
+    .login-container {
+      width: 66%;
+      height: 46vh;
+      padding: 20px 36px 53px 35px;
+    }
+    .grey-link {
+      min-width: 127px;
+    }
+    .opacity-footer {
+      width: 97.5vw;
+      padding: 0px 200px;
+    }
+  }
+  @media screen and (max-width: 496px){
+    .login-container {
+      width: 71%;
+      padding: 21px 43px 54px 11px;
+    }
+    .opacity-container {
+      opacity: 100%;
+    }
+    .logo-image {
+      max-width: 160px;
+      margin-left: 14px;
+    }
+    .opacity-footer {
+      width: 95vw;
+      padding: 0px 4px;
+    }
+    .grey-link {
+      min-width: 95px;
+    }
+    .fit{
+      display: none;
+    }
+    .footer-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  
+  }
